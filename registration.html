@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship Zone</title>
+    <link rel="icon" type="image/x-icon" href="Images/icons8-friendship-64.png">
+</head>
+<body>
+    <header>
+        <img src="Images/duy-pham-Cecb0_8Hx-o-unsplash.jpg" style="height: 100px; width: 150px;">
+        <h1 style="text-align: center;">Friendship Zone</h1>
+    </header>
+    <main>
+        <h2>Add your details to Register</h2>
+        <form>
+            <label><b>Name:</b></label>
+            <input type="text" id="Name" name="Name" placeholder="Enter your name"  title="Alphabet only" required><br>
+            <div></div><br>
+            <label for="Emails"><b>Email:</b></label> 
+            <input type="email" id="Email" name="email" required><br>
+            <div></div><br>
+            <label><b>Age:</b></label>
+            <input type="number" id="age" name="age" min="18" required>
+            <div></div><br>
+            <label><b>Birthday:</b></label>
+            <input type="date" id="DOB" name="DOB" min="1990-01-01" required>
+            <div></div><br>
+            <label><b>Gender:</b></label>
+            <input type="radio" id="Gender" name="Gender" value="Male" >
+            <label>M</label>
+            <input type="radio" id="Gender" name="Gender" value="Female" >
+            <label>F</label>
+            <div></div><br>
+            <label><b>About:</b></label>
+            <textarea style="width: 200px; height: 50px;" required></textarea>
+            <div></div><br>
+            <label><b>Phone:</b></label>
+            <input type="tel" id="Phone" name="Phone" pattern="[0-9]{10}" title="Number only"required>
+            <div></div><br>
+            <label><b>Interested in:</b></label>
+            <input type="checkbox" id="Interest" name="Interest">
+            <label>Friendship</label>
+            <input type="checkbox" id="Interest" name="Interest">
+            <label>Dating</label>
+            <label><b>Attachment</b></label>
+            <input type="file" id="file" name="file">
+            <div></div><br>
+            <input type="submit" formaction="user-confirmation.html" value="Register">
+            <input type="submit" formaction="admin-confirmation.html" value="Register as Admin">
+        </form>
+    </main>
+    <footer>
+        <h4>Follow us on</h4>
+        <ul>
+            <li><a href=""><u>Facebook</u></a></li>
+            <li><a href=""><u>Twitter</u></a></li>
+        </ul>
+        <p>All Rights Reserved. &copy;</p>
+    </footer>
+</body>
+</html>
